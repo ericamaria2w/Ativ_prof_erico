@@ -8,4 +8,4 @@ temperatura_Fahrenheit = float (input('Temperatura em Fahrenheit: '))
 temperatura_em_celcius = 5 * ( temperatura_Fahrenheit - 32) / 9
 
 #saída
-print ('A temperatura {:.lf} °F é igual a {:.lf} °C '. format (temperatura_Fahrenheit, temperatura_em_celcius))
+print ('A temperatura {:.1f} °F é igual a {:.1f} °C '. format (temperatura_Fahrenheit, temperatura_em_celcius))
